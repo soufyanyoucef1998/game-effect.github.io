@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(39, 38, 38);
+}
+.father div{
+    
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    color: red;
+    
+}
+.father{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 240px;
+    
+}
+.ACTIVE{
+    background-color:rgb(255, 255, 255);
+    
+   
+   
+}
